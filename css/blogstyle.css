@@ -1,0 +1,199 @@
+/* Add background color to body */
+body {
+  background-color: #f4f7fc;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for header navbar */
+#navbar-top {
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#navbar-top .navbar-nav .nav-link {
+  color: #555;
+  font-weight: 500;
+}
+
+#navbar-top .navbar-nav .nav-link:hover {
+  color: #004d99;
+  transition: all 0.3s ease;
+}
+
+#navbar-top .c-btn {
+  background-color: #004d99;
+  color: white;
+  font-weight: 600;
+}
+
+#navbar-top .c-btn:hover {
+  background-color: #003366;
+}
+
+/* Main content section styling */
+.content {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+.content h2 {
+  font-size: 2.5rem;
+  color: #004d99;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.content .highlight {
+  background-color: #ffecb3;
+  padding: 5px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Styling for blog post section */
+.blog-post-content {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+.blog-post-content h1 {
+  font-size: 2.5rem;
+  color: #004d99;
+  margin-bottom: 30px;
+}
+
+.blogpost-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.blogpost-meta .author-info {
+  font-size: 1rem;
+  color: #666;
+}
+
+.blogpost-meta .social svg {
+  margin: 0 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.blogpost-meta .social svg:hover {
+  transform: scale(1.1);
+}
+
+/* Contact section styling */
+.contact {
+  background-color: #fff;
+  padding: 80px 0;
+}
+
+.contact .heading small {
+  color: #004d99;
+  font-size: 1.1rem;
+}
+
+.contact .heading h3 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.contact .contact-details {
+  background-color: #f4f7fc;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input,
+.contact-form textarea {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.contact-form button {
+  background-color: #004d99;
+  color: white;
+  font-weight: 600;
+  padding: 12px 40px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #003366;
+}
+
+/* Button Styling */
+#btn-back-to-top, #btn-down {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+
+
+/* Footer Styling */
+footer {
+  background-color: #004d99;
+  color: #fff;
+  padding: 40px 0;
+}
+
+footer h3 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+footer .link-group a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+footer .link-group a:hover {
+  color: #ffecb3;
+}
+
+footer .social-links button {
+  background-color: #fff;
+  color: #004d99;
+  padding: 15px;
+  border-radius: 50%;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+footer .social-links button:hover {
+  background-color: #004d99;
+  color: #fff;
+}
